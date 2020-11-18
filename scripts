@@ -1,0 +1,10 @@
+
+
+# Test(single)
+python test.py -w weights/document_96.h5 -i data/multiple -o data/multiple_result -r data/multiple_result/heatmap_report.csv
+
+# Test(multiple)
+python test.py -w weights/document_96.h5 -i /Users/hungting/PycharmProjects/Document_rectification_regression/data/test -o data/single_result -r data/single_result/heatmap_report.csv
+
+# Test (video)
+python test.py -w weights/document_96.h5 -iv data/multiple.mp4 -o data/multiple_result
